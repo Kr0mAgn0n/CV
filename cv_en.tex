@@ -1,0 +1,293 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{url}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mario Alexis} % Your first name
+\familyname{Lamas Espinoza} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Jr. Castilla 678 Bloque C Departamento 103}{San Miguel - Lima}
+\mobile{+51 939324895}
+\phone{+51 1 2632277}
+%\fax{(000) 111 1113}
+\email{mlamases@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{\url{https://www.linkedin.com/in/mlamases/}}
+\photo[70pt][0.4pt]{pictures/mario.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+\section{Education}
+
+\cventry{2020}{Master in Mathematics}{Universidade de São Paulo }{São Carlos -- São Paulo}{}{}
+\cventry{2018}{Bachellor in Mathematics}{Universidad Nacional de Ingenier\'ia}{Lima}{}{}
+
+
+\section{Experience}
+\cventry{2021}{Web developer}{Sistemas Integrados y Mercadeo S.A.C.}{}{}{
+Activities:
+\begin{itemize}
+%	\item Mantenimiento de una single-page application.
+	\item Single-page application maintenance
+%	\item Creación de componentes.
+	\item Components creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Vue.js
+	\item Vuetify
+	\item Git
+\end{itemize}
+}
+
+\cventry{2020}{Web developoer}{Freelancer}{}{}{
+Activities:
+\begin{itemize}
+%	\item Creación de API REST.
+	\item API REST creation
+%	\item Creación de una single-page application para consumir el API creado anteriormente.
+	\item Single-page application creation for API consuming
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Django
+	\item Django REST Framework
+	\item Vue.js
+	\item Bootstrap
+	\item CKEditor
+	\item Git
+\end{itemize}
+}
+
+\cventry{2015--2017}{Web analyst}{Centro de Tecnolog\'ias de la Informaci\'on y Comunicaciones de la Universidad Nacional de Ingenier\'ia}{}{}{
+Activities:
+\begin{itemize}
+%	\item Administración de maquinas virtuales.
+	\item Virtual machines administration
+%	\item Administración del servicio de correo institucional.
+	\item Institutional mail accounts administration
+%	\item Implementación de websites.
+	\item Websites creation
+%	\item Soporte técnico.
+	\item Tech support
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item KVM
+	\item G Suite Enterprise for Education
+	\item Joomla
+	\item Servidor LAMP
+\end{itemize}
+}
+
+\cventry{2015--2016}{Visual Basic 6 developer}{Servicios Vista S.A.C.}{}{}{
+Activities:
+\begin{itemize}
+%	\item Mantenimiento de un software a medida para ventas y manejo de almacén.
+	\item Maintenance of custom software for sales and warehouse management 
+%	\item Corrección de errores.
+	\item Bugs corrections
+%	\item Creación de formularios.
+	\item Forms creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Visual Basic 6
+	\item Crystal Reports
+	\item MS SQL Server
+\end{itemize}
+}
+
+\cventry{2014--2015}{Web and Perl developer}{TodoBiblio E.I.R.L.}{}{}{
+Activities:
+\begin{itemize}
+%	\item Implementación, configuración y mantenimiento de un software para la administración de bibliotecas.
+	\item Library management software implementation, set-up and maintenance
+%	\item Creación de plantillas.
+	\item Templates creation
+%	\item Personalizaciones.
+	\item Customizations
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Koha Library Software
+	\item HTML, CSS y Javascript
+	\item Perl
+	\item LAMP server
+\end{itemize}
+}
+
+\cventry{2012--2013}{Web developer}{Ministerio de Educaci\'on}{}{}{
+Activities:
+\begin{itemize}
+%	\item Desarrollo de una aplicación web de georeferenciación de colegios públicos.
+	\item Developments of a web app for public schools georeferencing
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item ArcGIS API for Javascript
+\end{itemize}
+}
+
+\cventry{2012}{Web developer}{Facultad de Ingenier\'ia Industrial y de Sistemas de la Universidad Nacional de Ingenier\'ia}{}{}{
+Activities:
+\begin{itemize}
+%	\item Implementación, configuración y mantenimiento del portal institucional.
+	\item Institutional portal implementation, set-up and maintenance
+%	\item Mantenimiento de temas de apariencia y creación de portlets
+	\item Themes maintenance and portlets creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Liferay
+	\item HTML, CSS and Javascript
+	\item PHP
+	\item Linux
+	\item Portlets
+	\item MySQL
+\end{itemize}
+}
+
+\cventry{2011--2012}{Web developer}{Soluci\'on Estrat\'egica S.A.}{}{}{
+Activities:
+\begin{itemize}
+%	\item Implementación, configuración y mantenimiento de portales.
+	\item Portal implementation, set-up and maintenance
+%	\item Mantenimiento de temas de apariencia y creación de portlets en PHP.
+	\item Themes maintenance and portlets creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Liferay
+	\item HTML, CSS and Javascript
+	\item Linux
+	\item Portlets
+	\item PHP
+	\item MySQL
+\end{itemize}
+}
+
+\cventry{2009--2010}{Web developer}{Centro de Tecnolog\'ias de la Informaci\'on y Comunicaciones de la Universidad Nacional de Ingenier\'ia}{}{}{
+Activities:
+\begin{itemize}
+%	\item Implementación, configuración y mantenimiento del portal institucional.
+	\item Institutional portal implementation, set-up and maintenance
+%	\item Mantenimiento de temas de apariencia y creación de portlets en PHP.
+	\item Themes maintenance and portlets creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item Liferay
+	\item HTML, CSS and Javascript
+	\item Linux
+	\item MySQL
+\end{itemize}
+}
+
+\cventry{2008}{Web developer}{Facultad de Ciencias de la Universidad Nacional de Ingeniería}{}{}{
+Activities:
+\begin{itemize}
+%	\item Apoyo en el desarrollo de un software para la administración del almacén de la facultad.
+	\item Support on warehouse management software creation
+\end{itemize}
+Tools:
+\begin{itemize}
+	\item LAMP server
+\end{itemize}
+}
+
+\section{Certifications}
+
+\cventry{2020}{Python for Finance: Investment Fundamentals \& Data Analytics}{Udemy}{}{}{\href{https://www.udemy.com/certificate/UC-e00b5a29-1563-4b2b-be1b-a5083c706634/}{Link al certificado}}
+
+\cventry{2007}{Windows 2003 Server - Administración}{Sistemas UNI - Facultad de Ingeniería Industrial y de Sistemas de la Universidad Nacional de Ingeniería}{}{}{}
+
+\cventry{2005}{Linux/Red Hat- Intranet}{Sistemas UNI - Facultad de Ingeniería Industrial y de Sistemas de la Universidad Nacional de Ingeniería}{}{}{}
+
+\cventry{2004}{Linux/Red Hat - Administración}{Sistemas UNI - Facultad de Ingeniería Industrial y de Sistemas de la Universidad Nacional de Ingeniería}{}{grade}{}
+
+\cventry{2004}{Experto en hardware y configuración de dispositivos}{Sistemas UNI - Facultad de Ingeniería Industrial y de Sistemas de la Universidad Nacional de Ingeniería}{}{}{}
+
+\section{Courses}
+
+\cventry{Currently}{Data science}{Instituto de Ciências Matemáticas e de Computação - Universidade de São Paulo}{}{}{}
+
+
+\section{Skills}
+
+\cventry{}{Python}{}{}{}{Jupyter Notebook, NumPy, Pandas, statsmodels}
+\cventry{}{Data visualization}{}{}{}{Matplotlib}
+\cventry{}{R}{}{}{}{}
+\cventry{}{Full Stack web development}{}{}{}{Django (Python), Vue.js, JQuery, Linux, Apache, MySQL, Amazon AWS}
+
+
+
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Intermediate}{}
+\cvitemwithcomment{Portuguese}{Intermediate}{}
+
+
+\section{Interests}
+
+\cvlistitem{Differential geometry}
+\cvlistitem{Web development}
+\cvlistitem{Data science}
+\cvlistitem{Free software and Linux}
+
+
+\end{document}
